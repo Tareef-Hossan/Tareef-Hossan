@@ -1,0 +1,199 @@
+<html>
+ <head>
+  <title>
+   Portfolio
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #1c1c1c;
+            border-radius: 20px;
+            padding: 40px;
+            width: 80%;
+            max-width: 1000px;
+            height: 500px; /* Set a specific height */
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.5);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .content {
+            margin-left: 5%;
+            max-width: 50%;
+        }
+        .content h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .content h2 {
+            font-size: 1.5em;
+            color: #00e6e6;
+            margin: 10px 0;
+        }
+        .content p {
+            font-size: 1em;
+            color: #b0b0b0;
+            margin: 20px 0;
+        }
+        .content .social-icons {
+            margin: 20px 0;
+        }
+        .content .social-icons a {
+            color: #00e6e6;
+            font-size: 1.5em;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        .content .download-btn {
+            background-color: #00e6e6;
+            color: #1c1c1c;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .profile-pic {
+            position: absolute; /* Change to absolute positioning */
+            left: 59%; /* Adjust this value to move left or right */
+            top: 50%; /* Center vertically */
+            transform: translateY(-50%); /* Adjust for vertical centering */
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.7);
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .navbar {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 1000px;
+        }
+        .navbar .logo {
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin-left: 20px;
+        }
+        .navbar ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .navbar ul li:first-child a {
+            color: #00e6e6; /* Change the color of the Home link */
+        }
+        .navbar ul li a:hover {
+            color: #00e6e6;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="navbar">
+   <div class="logo">
+    TareefHossan.
+   </div>
+   <ul>
+    <li>
+     <a>
+      <a href="#">
+        Home
+      </a>
+     </a>
+    </li>
+    <li>
+     <a href="about.html">
+      About
+     </a>
+    </li>
+    <li>
+     <a href="Skills.html">
+      Skills
+     </a>
+    </li>
+    <li>
+     <a href="portfolio.html">
+      Portfolio
+     </a>
+    </li>
+    <li>
+     <a href="contact.html">
+      Contact
+     </a>
+    </li>
+   </ul>
+  </div>
+  <div class="container">
+   <div class="content">
+    <h1>
+     Hello, It's Me
+    </h1>
+    <h1>
+     Tareef Hossan
+    </h1>
+    <h2>
+     And I'm a
+     <span style="color: #00e6e6;">
+      Graphic Designer, Motion Artist and 3D Designer
+     </span>
+    </h2>
+    <p>
+     I'm a certified professional Graphic Designer, Motion Artist and 3D Designer. I work in Adobe Illustrator, Adobe Photoshop, After Effect, Blender, Cinema 4D and lastly Adobe Indesign.
+    </p>
+    <div class="social-icons">
+     <a href="https://www.facebook.com/profile.php?id=61560024189331">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a href="https://x.com/TareefHossan">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a href="https://www.instagram.com/t_nothing_87/?next=%2F">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a href="https://www.linkedin.com/in/tawsif-ibn-hossain-137975291/">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+    </div>
+    <a class="download-btn" href="https://drive.google.com/file/d/1TY09qKltrzORRSOa49MyDGrpE9jgngj8/view?usp=sharing">
+     Download CV
+    </a>
+   </div>
+   <div class="profile-pic">
+    <img alt="Profile picture of Tareef Hossan" height="250" src="441658009_448192591410146_4875663891121357261_n.jpg" width="250"/>
+   </div>
+  </div>
+ </body>
+</html>
